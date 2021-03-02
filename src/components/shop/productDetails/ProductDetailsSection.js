@@ -9,8 +9,9 @@ import { getSingleProduct } from "./FetchApi";
 import { cartListProduct } from "../partials/FetchApi";
 
 import { isWishReq, unWishReq, isWish } from "../home/Mixins";
-import { updateQuantity, slideImage, addToCart, cartList } from "./Mixins";
-import { totalCost } from "../partials/Mixins";
+// import { updateQuantity, slideImage, addToCart, cartList } from "./Mixins";
+import {  slideImage,  cartList } from "./Mixins";
+// import { totalCost } from "../partials/Mixins";
 import { isAuthenticate } from '../auth/fetchApi'
 
 // import { toast } from 'react-toastify'
